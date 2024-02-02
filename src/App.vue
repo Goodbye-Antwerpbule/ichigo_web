@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref, watch, onMounted, onBeforeMount, onBeforeUnmount } from "vue";
 import { io } from "socket.io-client";
 import Cookies from "js-cookies";
